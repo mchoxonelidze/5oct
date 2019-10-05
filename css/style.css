@@ -1,0 +1,91 @@
+body, html, div,ul, li, img {
+    margin: 0;
+    padding: 0;
+}
+li{
+    list-style: none;
+}
+a {
+    text-decoration: none;
+    color: black;
+}
+h1{
+    font-size: 60px;
+    font-weight: bold;
+}
+p{
+    color: #a2a2a2;
+    font-size: 20px;
+    line-height: 30px;
+
+}
+
+.width80 {
+    width: 80%;
+    margin: auto;
+}
+
+.flexspace {
+    display: flex;
+    justify-content: space-between;
+}
+.backgroundimg1{
+    background-image: url(../img/grey-circle-white-background.svg.med.png);
+    height: 650px;
+    background-size: cover;
+    background-position: right;
+    background-repeat: no-repeat;
+}
+/* header */
+.logo {
+    width: 15%;
+}
+.marginli {
+    margin: 30px 15px;
+}
+.demo {
+    border: 1px solid #afabab;
+    background-color: #afabab;
+    padding: 10px 20px;
+    border-radius: 50px;
+    margin: 20px 0;
+    cursor: pointer;
+}
+
+/* section */
+.learnBtn {
+    background-color: #fff;
+    border: 0px solid white;
+    cursor: pointer;
+}
+.img1 {
+    width: 60%;
+    margin-top: 25px;
+    border-radius: 50px;
+}
+.width70 {
+    width: 70%;
+    margin: auto;
+}
+.box{
+    width: 10%;
+   
+}
+.width60 {
+    width: 60%;
+    margin: auto;
+    padding: 40px 0;
+}
+h3 {
+    display: flex;
+    justify-content: center;
+    padding: 30px 0;
+    font-size: 30px;
+}
+
+.backgroundimg2 {
+    background-image: url(../img/bgimg2.png);
+    height: 800px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
